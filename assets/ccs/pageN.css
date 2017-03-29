@@ -1,0 +1,169 @@
+/* сброс стилей браузера */
+* { box-sizing: border-box; }
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+ol { 
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	padding-left: 1.4em;
+	list-style: square;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+/* конец кода сброca*/
+
+
+body {
+	max-width: 1024px;
+	margin: 0 auto;
+	background: -webkit-linear-gradient(135deg, rgb(135,206,235), rgb(30,25,112));
+	background: -moz-linear-gradient(135deg, rgb(135,206,235), rgb(30,25,112));
+	background: -o-linear-gradient(135deg, rgb(135,206,235), rgb(30,25,112));
+	background-image: linear-gradient(135deg, rgb(135,206,235), rgb(30,25,112));;
+}
+.zaglavie{
+	margin-left:5%;
+	margin-right: 5%;
+	margin-bottom: 5%;
+	width:auto;
+	border:none;
+	background: url('../img/perg.jpg')repeat;
+	text-align: center;
+	font-size: 36px;
+	border-radius: 50%/30%;
+	box-shadow:  15px 14px 18px
+	rgba(255,69,0,0.5);
+	
+	
+}
+	.zaglavie>h1
+{
+	color:black;
+	font-family:"Lobster" ;
+}
+.zaglavie>h2
+{
+	color:#8b4513;
+	font-family:"Lobster" ;
+}
+header h1 {
+	font: 700 72px Titillium, Arial, sans-serif;
+	color: rgb(218,165,32);
+	text-shadow: 0 0 5px white,
+	             3px 3px 5px rgba(0,0,0,.5);
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;	
+}
+nav li {
+	display: inline;	
+}
+nav a {
+	display: inline-block;
+	padding: 9px 20px 5px 20px;
+	border-radius:20px;
+	text-decoration: none;	
+	font-family: Titillium, Arial, sans-serif;
+	font-weight: 700;
+	color: white;
+	text-shadow: 2px 2px 4px rgba(0,0,0,1);
+	text-transform:uppercase;
+	font-size: .9em;
+	letter-spacing: .1em;
+	background-color: rgb(218,165,32);
+	border: 1px solid rgb(232,113,35);
+	margin-right: 5px;
+}
+figcaption strong {
+	font-weight: 700;
+	display: block;
+}
+footer .copyright {
+	font-family: Titillium, Arial, sans-serif;
+	font-weight: 700;
+	color: white;
+	margin: 0 auto;
+	max-width: 1024px;
+}
+
+
+header {
+  position: relative;
+  margin-top: 5vh;
+  padding: 20px 0 0 10px;
+  
+}
+header .badge {
+  position: absolute;
+  top: 55%;
+  left: 36%;
+  z-index: -1;
+}
+header nav {
+  position: absolute;
+  right: 0;
+  bottom: 5px;
+}
+.gallery figure {
+  display: inline-block;
+  width: 300px;
+  height: 210px;
+  margin: 15px;
+  position: relative;
+}
+.gallery figcaption {
+  position: absolute;
+  top: 15%;
+  bottom: 15%;
+  left: 0;
+  right: 0;
+  background-color: rgba(153,153,153,.9);
+  padding: 20px;
+  font-family: "Lobster";
+  font-weight: 400;
+  font-size: .9em;
+  color: white;
+  opacity: 0;
+  transition: opacity .75s ease-out;
+}
+.gallery figure:hover figcaption {
+  opacity: 1;
+  
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}

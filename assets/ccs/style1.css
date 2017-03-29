@@ -1,0 +1,227 @@
+/* сброс стилей браузера */
+* { box-sizing: border-box; }
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+ol { 
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	padding-left: 1.4em;
+	list-style: square;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+/* конец кода сброса стилей браузера */
+body{ 
+	padding: 20px;
+  margin: 0 auto;
+  border-radius: 10px;
+  
+	
+}
+.supObl{
+	width: 90%;
+	background: url('../img/perg.jpg')repeat;	
+/*	background-image:linear-gradient(to bottom
+	,#b8860b,#daa520,#ffd700 );*/
+ 	 box-shadow: 10px 10px 10px rgba(0,0,0,.5);
+ 	 background-color: #E1EDEB;
+}
+.oblogka{
+	
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+	border:solid black 1px; 
+	height: 90vh;
+	text-align: center;
+	padding:10%;
+	background:
+	          url('../img/ugol.jpg') no-repeat left top,
+	          url('../img/ugol.jpg') no-repeat left bottom ,
+				url('../img/ugol.jpg') no-repeat right top,
+	          url('../img/ugol.jpg') no-repeat right bottom,      
+	          url('../img/tl.jpg') repeat-x top,
+	          url('../img/tl.1.jpg') repeat-y left,
+	          url('../img/tl.jpg') repeat-x bottom,
+	          url('../img/tl.1.jpg') repeat-y right;
+
+}
+.gorgMart{
+	margin-left: 70%;
+	width: 30%;
+	font-family:"Pacifico" ;
+	font-size: 16px;
+}
+.zaglavie{
+	margin-left:20%;
+	margin-right: 30%;
+	width:auto;
+	border:none;
+/*	background: url('../img/perg.jpg')repeat;*/
+	text-align: center;
+	font-size: 45px;
+	border-radius: 50%/30%;
+	box-shadow:  15px 14px 18px
+	rgba(205,133,63,0.5);
+	
+}
+.zaglavie>h1
+{
+	color:black;
+	font-family:"Lobster" ;
+}
+.zaglavie>h2
+{
+	color:#8b4513;
+	font-family:"Lobster" ;
+}
+.zashelca{
+	position: absolute;
+	right:-3%;
+	top:45%;
+	width: 18%;
+	height: 20%;
+	border:none;
+	border-top-left-radius: 40%;
+	border-bottom-left-radius: 40%;
+	background:url('../img/pragka.jpg');
+	background-repeat:no-repeat;
+	background-size: contain;
+	
+}
+.zashelca>a{
+	position: absolute;
+	top:20%;
+	left:35%;
+	display: inline-block;
+	width: 5vw;
+	height:5vw;
+	
+	border-radius: 50%;
+	background: url('../img/mon3.jpg');
+	background-repeat:no-repeat;
+	background-size: cover;
+	
+}
+.zashelca>a:hover{
+	box-shadow:  15px 14px 18px
+	rgba(205,133,63,0.5);	
+}
+
+/*для малых экранов*/
+
+@media (max-width:480px){
+	body{ 
+	padding: 0;
+  margin: 0 auto;
+ }
+
+.gorgMart{
+	margin-top: 5%;
+	margin-left: 20%;
+	width: 70%;
+	font-family:"Pacifico" ;
+	font-size: 14px;
+}
+.zaglavie{
+	margin-top: 20vw;
+	margin-left:10%;
+	margin-right: 10%;
+	width:auto;
+	border:none;
+/*	background: url('../img/perg.jpg')repeat;*/
+	text-align: center;
+	font-size: 50px;
+	border-radius: 50%/30%;
+	box-shadow:  15px 14px 18px
+	rgba(205,133,63,0.5);
+	
+}
+
+.zashelca{
+	
+	position: absolute;
+	right:0;
+	top:45%;
+	width: 20%;
+	height: 20%;
+	border:none;
+	border-top-left-radius: 40%;
+	border-bottom-left-radius: 40%;
+	background:url('../img/pragka.jpg');
+	background-repeat:no-repeat;
+	background-size: contain;
+	
+}
+.zashelca>a{
+	position: absolute;
+	top:20%;
+	left:35%;
+	display: inline-block;
+	width: 6vw;
+	height:6vw;
+	
+	border-radius: 50%;
+	background: url('../img/mon3.jpg');
+	background-repeat:no-repeat;
+	background-size: cover;
+	
+}
+}
+@media (min-width:770px) and (max-width:1024px){
+.zashelca{
+	
+	position: absolute;
+	right:-10px;
+	top:45%;
+	width: 20%;
+	height: 20%;
+	border:none;
+	border-top-left-radius: 40%;
+	border-bottom-left-radius: 40%;
+	background:url('../img/pragka.jpg');
+	background-repeat:no-repeat;
+	background-size: contain;
+	
+}
+.zashelca>a{
+	position: absolute;
+	top:20%;
+	left:35%;
+	display: inline-block;
+	width: 6vw;
+	height:6vw;
+	
+	border-radius: 50%;
+	background: url('../img/mon3.jpg');
+	background-repeat:no-repeat;
+	background-size: cover;
+	
+}	
+}

@@ -1,0 +1,82 @@
+
+.oblogka{
+	position: relative;
+	border:solid black 1px; 
+	width: 90%;
+	height: 90vh;
+	margin: auto;
+	padding: 110px;
+	text-align: center;
+	background:
+	          url('../img/vnEl.jpg') no-repeat left top,
+	          url('../img/nlEl.jpg') no-repeat left bottom,
+				url('../img/vpEl.jpg') no-repeat right top,
+	          url('../img/npEl.jpg') no-repeat right bottom,
+	          url('../img/tl.jpg') repeat-x top,
+	          url('../img/tl1.jpg') repeat-y left,
+	          url('../img/tl.jpg') repeat-x bottom,
+	          url('../img/tl1.jpg') repeat-y right;
+/*background-color: #87cefa;*/
+/* background-image: url('../img/perg.jpg') ;*/
+
+ 
+	 }
+.gorgMart{
+	position: absolute;
+	top: 100px;
+	left: 60%;
+	width: 20%;
+	font-family:"Pacifico" ;
+	font-size: 16px;
+}	 
+.zaglavie{
+	position: absolute;
+	top: 40vh;
+	left: 10%;
+	border:solid black 1 px;
+	width: 60%;
+	background: url('../img/unnamed.jpg')repeat;
+	text-align: center;
+	font-size: 34px;
+	border-radius: 30%;
+}
+.zaglavie>h1
+{
+	color:black;
+	font-family:"Lobster" ;
+}
+.zaglavie>h2
+{
+	color:#cd853f;
+	font-family:"Lobster" ;
+}
+.zashchelka{
+	position: absolute;
+	top: 45vh;
+	left:75%; 
+	width: 20%;
+	height: 25vw;
+	background:url('../img/pragka.jpg');
+	background-repeat:no-repeat;
+	background-size: cover;
+	border: solid #ffd700 1px;
+	border-radius:40%;
+	text-align: center;
+}
+.zashchelka input{
+	position: absolute;
+	top:30%;
+	left: 30%;
+	width: 20%;
+	height: 20%;
+	border: solid #ffd700 1px;
+	border-radius:30%;
+	background-image: url('../img/mon3.jpg');
+	background-repeat:no-repeat;
+	background-size: cover;
+	
+}
+.zashchelka input:hover{
+    box-shadow: 0 0 10px 5px rgba(255, 0, 0,0.5);
+    cursor: pointer;
+}
