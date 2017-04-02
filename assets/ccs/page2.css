@@ -50,7 +50,7 @@ body{
 	top:20px;
 	left: 20px;
 	width:100%;
-	min-height: 1100px;
+	min-height: 2100px;
 	background : url('../img/potrep_kor.jpg') repeat-y ;
 	background-size: cover;
 	opacity: 0.7;
@@ -135,8 +135,12 @@ body{
 	 width: 10vw;
 	
 }
+
 .mainNav li:last-of-type a {
   border-bottom: 1px dashed blue;
+}
+.mainNav li:nth-of-type(3) a {
+	color:red;
 }
 .mainNav a {
   color: #000;
@@ -210,7 +214,7 @@ input:checked~.menu{
 	
 }
 input:not(checked)~label:hover{
-	box-shadow:  15px 14px 18px
+	box-shadow:  15px 4px 18px
 	rgba(255,69,0,0.5);
 }
 /*горизонтальное меню*/
@@ -233,6 +237,9 @@ input:not(checked)~label:hover{
 }
 .Nav li:last-of-type a {
   border-right: 1px dashed #999;
+}
+.Nav li:nth-of-type(3) a {
+	text-shadow: -4px 4px #999999;
 }
 .Nav a {
   color: #000;
@@ -269,7 +276,7 @@ input:not(checked)~label:hover{
 .zaglavie{
 	margin-left:-5%;
 	font-size: 40px;
-	margin-bottom: 80vh;
+	margin-bottom: 70vh;
 	}
 .feature {
 	display: none;
@@ -281,7 +288,7 @@ input:not(checked)~label:hover{
 	
 	display: block;
 	width: 50vw;
-	height: 75vh;
+	height: 380px;
 	background: url('../img/bez_kor.jpg') no-repeat;
 	background-size: 100% auto; 
 

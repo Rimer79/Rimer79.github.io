@@ -104,6 +104,8 @@ nav a {
 	border: 1px solid rgb(232,113,35);
 	margin-right: 5px;
 }
+nav li:nth-of-type(3) a {
+    color:red;}
 figcaption strong {
 	font-weight: 700;
 	display: block;
@@ -208,6 +210,7 @@ footer {
 .backfaces .back{
     transform:rotateY(180deg);
 }
+
 /*делаем расположение галереи флексами*/
 .gallery{
 	display: flex;
@@ -234,7 +237,10 @@ header .badge {
 }	
 }
 
-
+input {
+    display: none;
+    
+}
 
 
 
