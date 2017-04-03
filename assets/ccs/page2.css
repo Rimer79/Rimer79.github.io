@@ -221,7 +221,7 @@ input:not(checked)~label:hover{
 /*горизонтальное меню*/
 .feature {
 	position: absolute;
-	top:20%;
+	top:15%;
 	left:15%;
 	font: 62.5% Verdana, Arial, Helvetica, sans-serif;
 	padding: 20px;
